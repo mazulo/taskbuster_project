@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Patrick Mazulo -- Web Developer -- @ericleribertson
 
 # THANKS
 
-    <name>
+    My family who make food for me, and my dogs.
 
 # TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    jQuery, Modernizr
+    Django
+    HTML5 Boilerplate
+    Twitter Bootstrap

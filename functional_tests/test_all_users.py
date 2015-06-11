@@ -27,3 +27,9 @@ class HomeNewVisitorTest(StaticLiveServerTestCase):
             h1.value_of_css_property('color'),
             "rgba(200, 50, 255, 1)"
         )
+
+    def test_home_files(self):
+        self.browser.get(self.live_server_url + '/robots.txt')
+        self.assertNotIn('Page Not Found', self.browser.title)
+        self.browser.get(self.live_server_url + '/humans.txt')
+        self.assertNotIn('Page Not Found', self.browser.title)
