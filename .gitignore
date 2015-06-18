@@ -3,3 +3,5 @@ __pycache__
 TaskBuster.sublime-workspace
 .coverage
 htmlcov
+*.sqlite3
+taskbuster/fixtures
