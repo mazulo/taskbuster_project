@@ -48,8 +48,11 @@ INSTALLED_APPS = (
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    # Login via Google
+    # Login via Google and Twitter
     'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.twitter',
+    # TaskBuster apps
+    'taskbuster.apps.taskmanager',
 )
 
 SITE_ID = 1
